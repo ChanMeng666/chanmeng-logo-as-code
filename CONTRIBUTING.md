@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This guide explains how to get invo
 
 ### Reporting Bugs
 
-If you find a bug, please [open an issue](https://github.com/ChanMeng666/logo-as-code-skill/issues/new) with:
+If you find a bug, please [open an issue](https://github.com/ChanMeng666/chanmeng-logo-as-code/issues/new) with:
 
 - Steps to reproduce the problem
 - Expected vs. actual behavior (screenshots or logs help)
@@ -14,14 +14,14 @@ If you find a bug, please [open an issue](https://github.com/ChanMeng666/logo-as
 
 ### Suggesting Features
 
-Have an idea? [Open a feature request](https://github.com/ChanMeng666/logo-as-code-skill/issues/new) describing the problem you want to solve and your proposed solution.
+Have an idea? [Open a feature request](https://github.com/ChanMeng666/chanmeng-logo-as-code/issues/new) describing the problem you want to solve and your proposed solution.
 
 ### Submitting Changes
 
 1. **Fork** the repository and **clone** your fork:
    ```bash
-   git clone https://github.com/<your-username>/logo-as-code-skill.git
-   cd logo-as-code-skill
+   git clone https://github.com/<your-username>/chanmeng-logo-as-code.git
+   cd chanmeng-logo-as-code
    ```
 2. **Create a branch** for your changes:
    ```bash

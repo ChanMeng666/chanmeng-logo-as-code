@@ -1,5 +1,5 @@
 ---
-name: vectorizing-handdrawn-logos
+name: chanmeng-logo-as-code
 description: Use when turning a hand-drawn, sketched, or scanned logo into clean reproducible code — fitting smooth cubic Bézier curves to the real outline to produce an editable SVG, color/layout variants, an interactive side-by-side/difference review gallery, PNG/ICO/favicon exports, and optional AI showcase renders. For brand logos, monkey/mascot marks, wordmarks, avatars, or any artwork that should become a parametric, infinitely scalable, version-controlled asset instead of a flat image. This reconstructs an existing drawing; it does not generate brand-new logo designs from scratch.
 allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 ---

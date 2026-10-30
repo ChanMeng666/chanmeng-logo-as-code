@@ -1,5 +1,5 @@
 {
-  "name": "logo-as-code-skill",
+  "name": "chanmeng-logo-as-code",
   "version": "1.0.0",
   "description": "Claude Code skill: turn a hand-drawn logo into smooth cubic-Bezier code, SVG variants, and PNG/ICO exports.",
   "scripts": {

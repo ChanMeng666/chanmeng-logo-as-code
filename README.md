@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="examples/chan-monkey/out/monkey/chan-meng-monkey-black-on-white.svg" alt="logo-as-code preview" width="140" />
+<img src="examples/chan-monkey/out/monkey/chan-meng-monkey-black-on-white.svg" alt="chanmeng-logo-as-code preview" width="140" />
 
-# logo-as-code-skill
+# chanmeng-logo-as-code
 
 **Turn a hand-drawn logo into clean, reproducible code.**
 
@@ -44,7 +44,7 @@ skill packages that pipeline so it can be applied to **any** logo.
 ### What's inside
 
 ```
-logo-as-code-skill/
+chanmeng-logo-as-code/
 ├── SKILL.md                  # the skill: when to use it + the step-by-step workflow
 ├── references/
 │   ├── method.md             # the mathematics (Catmull-Rom → cubic Bézier)
@@ -154,13 +154,13 @@ Copy or symlink this repo into your skills directory so Claude can invoke it on 
 ```powershell
 # Windows (PowerShell) — symlink keeps it updated with this repo
 New-Item -ItemType SymbolicLink `
-  -Path "$env:USERPROFILE\.claude\skills\vectorizing-handdrawn-logos" `
-  -Target "D:\github_repository\logo-as-code-skill"
+  -Path "$env:USERPROFILE\.claude\skills\chanmeng-logo-as-code" `
+  -Target "D:\github_repository\chanmeng-logo-as-code"
 ```
 
 ```bash
 # macOS / Linux
-ln -s /path/to/logo-as-code-skill ~/.claude/skills/vectorizing-handdrawn-logos
+ln -s /path/to/chanmeng-logo-as-code ~/.claude/skills/chanmeng-logo-as-code
 ```
 
 Then in any session, a request like *"turn this hand-drawn logo into an SVG with color
@@ -193,7 +193,7 @@ personal brand identity — study the technique, but please don't reuse the mark
 ### 目录结构
 
 ```
-logo-as-code-skill/
+chanmeng-logo-as-code/
 ├── SKILL.md                  # 技能本体：何时使用 + 分步工作流
 ├── references/
 │   ├── method.md             # 数学方法（Catmull-Rom → 三次贝塞尔）
@@ -297,13 +297,13 @@ npm run rasterize
 ```powershell
 # Windows（PowerShell）——软链接可随本仓库自动更新
 New-Item -ItemType SymbolicLink `
-  -Path "$env:USERPROFILE\.claude\skills\vectorizing-handdrawn-logos" `
-  -Target "D:\github_repository\logo-as-code-skill"
+  -Path "$env:USERPROFILE\.claude\skills\chanmeng-logo-as-code" `
+  -Target "D:\github_repository\chanmeng-logo-as-code"
 ```
 
 ```bash
 # macOS / Linux
-ln -s /path/to/logo-as-code-skill ~/.claude/skills/vectorizing-handdrawn-logos
+ln -s /path/to/chanmeng-logo-as-code ~/.claude/skills/chanmeng-logo-as-code
 ```
 
 随后在任意会话中，一句*“把这张手绘 logo 变成带配色变体和 favicon 的 SVG”*即可触发本技能，
