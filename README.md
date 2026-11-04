@@ -149,6 +149,21 @@ so the rest of the skill is never blocked.
 
 ### Install as a Claude Code skill
 
+#### As a Claude Code plugin (recommended)
+
+```text
+/plugin install chanmeng-logo-as-code --marketplace ChanMeng666/chanmeng-logo-as-code
+```
+
+On Claude Code older than 2.1.275, add the marketplace first:
+
+```text
+/plugin marketplace add ChanMeng666/chanmeng-logo-as-code
+/plugin install chanmeng-logo-as-code@chanmeng-logo-as-code
+```
+
+#### Manual install
+
 Copy or symlink this repo into your skills directory so Claude can invoke it on demand:
 
 ```powershell
@@ -291,6 +306,21 @@ npm run rasterize
 若展示图脚本缺少依赖或 key，会以清晰的提示优雅退出，因此绝不会阻塞技能的其余部分。
 
 ### 安装为 Claude Code 技能
+
+#### 作为 Claude Code 插件安装（推荐）
+
+```text
+/plugin install chanmeng-logo-as-code --marketplace ChanMeng666/chanmeng-logo-as-code
+```
+
+Claude Code 低于 2.1.275 时，先添加插件市场：
+
+```text
+/plugin marketplace add ChanMeng666/chanmeng-logo-as-code
+/plugin install chanmeng-logo-as-code@chanmeng-logo-as-code
+```
+
+#### 手动安装
 
 把本仓库复制或软链接到你的 skills 目录，Claude 即可按需调用：
 

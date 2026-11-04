@@ -7,8 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-04
+
+### Added
+- Claude Code plugin packaging: `.claude-plugin/plugin.json` and `marketplace.json`. Install with
+  `/plugin install chanmeng-logo-as-code --marketplace ChanMeng666/chanmeng-logo-as-code`. The repo, marketplace, plugin and skill all
+  use the name `chanmeng-logo-as-code`. The manual `git clone` install still works as before.
+- CI runs `claude plugin validate --strict` on the manifests.
+
 ### Added
 - Standard community-health documentation (`CONTRIBUTING.md`, `SECURITY.md`, `SUPPORT.md`, `GOVERNANCE.md`, this changelog).
+- A plugin icon, `.claude-plugin/icon.png`: the Chan Meng monkey on a Caldera palette colour, so catalogs show it instead of a letter.
 
 ## [1.0.0]
 

@@ -1,0 +1,28 @@
+{
+  "name": "chanmeng-logo-as-code",
+  "description": "Chan Meng's chanmeng-logo-as-code plugin for Claude Code.",
+  "owner": {
+    "name": "Chan Meng",
+    "url": "https://github.com/ChanMeng666"
+  },
+  "plugins": [
+    {
+      "name": "chanmeng-logo-as-code",
+      "source": "./",
+      "description": "A Claude Code skill that turns a hand-drawn, sketched, or scanned logo into clean, reproducible code - fitting smooth cubic Bezier curves to the real outline to generate an editable SVG, color/layout variants, and PNG/ICO/favicon exports.",
+      "category": "design",
+      "tags": [
+        "agent-skills",
+        "anthropic",
+        "bezier-curves",
+        "brand-identity",
+        "catmull-rom",
+        "claude-code",
+        "claude-code-skill",
+        "favicon",
+        "generative-design",
+        "logo"
+      ]
+    }
+  ]
+}
