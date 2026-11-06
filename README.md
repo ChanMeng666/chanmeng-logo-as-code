@@ -147,7 +147,15 @@ review gallery need nothing installed. Two steps are optional add-ons:
 The showcase script fails gracefully with a clear message if its deps or key are missing,
 so the rest of the skill is never blocked.
 
-### Install as a Claude Code skill
+### Install as an agent skill
+
+#### Any agent, with the skills CLI
+
+Installs into Claude Code, Cursor, Codex, GitHub Copilot, Gemini CLI and the other agents the CLI supports. Listed on [skills.sh](https://skills.sh/chanmeng666).
+
+```bash
+npx skills add ChanMeng666/chanmeng-logo-as-code
+```
 
 #### As a Claude Code plugin (recommended)
 
